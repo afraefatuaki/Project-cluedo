@@ -6,22 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <section>
 
-        <button type="button" onchange="findTheKiller()"></button>
-        <div id="suspectInfo">
+    <div>
 
-        </div>
-        <div>
+        <button type="button" onclick="findTheKiller()">Play</button>
+        <h2 id="whoDidIt"></h2>
+
+    </div>
+    <div class="container">
+        <section resize>
+
+            <article id="image"></article>
+            <div>
+
+                <h3 id="suspectInfo"></h3>
+                <p id="description"></p>
+
+            </div>
+        </section>
+        <div class="weaponRooms">
 
             <p id="weapon"></p>
             <p id="rooms"></p>
 
         </div>
-    </section>
+    </div>
     <script src="assets/js/main.js"></script>
 </body>
 
